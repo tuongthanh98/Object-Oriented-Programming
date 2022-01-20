@@ -1,0 +1,21 @@
+
+Giới thiệu Lambda Expression trong Java
+Lambda Expression - Biểu thức Lambda trong java là một tính năng mới và quan trọng được thêm vào trong Java SE 8. Nó cung cấp một cách rõ ràng và ngắn ngọn để đại diện cho một phương thức interface sử dụng một biểu thức. Nó rất hữu ích trong thư viện collection. Nó giúp duyệt, lọc và trích xuất dữ liệu từ collection.
+
+Biểu thức Lambda được sử dụng để cung cấp bản cài đặt của một interface mà có interface chức năng. Nó tiết kiệm rất nhiều mã. Trong trường hợp biểu thức lambda, chúng ta không cần định nghĩa lại phương thức để cung cấp việc thực hiện. Ở đây, chúng ta chỉ cần viết mã thực thi.
+
+Biểu thức Java lambda được coi như là một chức năng, do đó trình biên dịch không tạo tập tin .class.
+
+Functional Interface
+Biểu thức Lambda cung cấp bản cài đặt cho Functional Interface. Một interface chỉ có MỘT phương thức trừu tượng được gọi là Functional Interface. Java cung cấp một anotation @FunctionalInterface , được sử dụng để khai báo một interface như functional interface.
+
+Tại sao sử dụng biểu thức Lambda
+Cung cấp bản thực hiện cho interface Chức năng.
+Viết ít code hơn.
+
+Tổng kết Lambda Expression trong Java
+Bản chất của Lambda Expression - Biểu thức Lambda trong java là tạo ra một đối tượng nặc danh cho một Functional Interface, và cung cấp thân hàm cho phương thức trừu tượng duy nhất của Functional Interface. Functional Interface trong Java là một interface chỉ được chứa một hàm trừu tượng duy nhất.
+
+Tại sao Functional Interface chỉ chứa MỘT hàm trừu tượng duy nhất? Bởi vì biểu thức Lambda chỉ chứa các tham số và thân hàm, không chỉ định tên hàm. Do vậy nếu có nhiều hơn 1 phương thức trong Functional Interface thì biểu thức Lambda sẽ bị bế tắc vì nó không biết cấp thân hàm cho phương thức nào.
+
+Rất đơn giản đúng không ạ? Hy vọng qua bài này các bạn sẽ không còn sợ khi đối mặt với biểu thức lambda trong Java nói riêng, và các ngôn ngữ khác nói chung.
