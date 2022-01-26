@@ -17,6 +17,8 @@ public class Main {
 		generateRandomAlphabetString();
 		usingRandomIntToGenerateRdAlphabetStr();
 		generateRandomAlphanumericString();
+
+		System.exit(0);
 	}
 
 	

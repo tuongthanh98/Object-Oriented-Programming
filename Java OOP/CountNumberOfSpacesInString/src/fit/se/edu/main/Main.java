@@ -8,7 +8,6 @@ public class Main {
 	public static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int choose = 0;
 		boolean exits = false;
 		
@@ -50,19 +49,15 @@ public class Main {
 				int result = usingSplit(newString);
 				
 				System.out.println("This is result after counting the space in the string: " + result);
-			}
-			
+			}			
 			case 0 -> {
 				exits = true;
 			}
 			default ->
 			throw new IllegalArgumentException("Unexpected value: " + choose);
 			}
-			
 		}
-		
-//		int result = countSpaceInString("");
-//		System.out.println("" + result);
+		System.exit(0);
 	}
 
 	

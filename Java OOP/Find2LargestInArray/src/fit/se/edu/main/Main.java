@@ -54,6 +54,7 @@ public class Main {
             if (arr[i] != largest)
                 second = Math.max(second, arr[i]);
         }
+        
         if (second == Integer.MIN_VALUE)
             System.out.println("Khong ton tai phan tu lon thu 2");
         else
